@@ -1,8 +1,12 @@
 ## step one
 
-Composer install
+1) Composer install
 
-php artisan migrate
+2) cp .env.example .env
+
+3) configure database
+
+4) php artisan migrate
 
 
 ## step two
