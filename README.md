@@ -10,7 +10,9 @@
 
 
 ## step two
-npm install && npm run dev
+npm install 
+
+npm run dev
 
 ## step three
 
