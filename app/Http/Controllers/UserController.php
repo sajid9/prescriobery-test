@@ -12,6 +12,6 @@ class UserController extends Controller
     {
         $users = User::all();
 
-        return Inertia::render('User/userslist',["users"=>$users]);
+        return Inertia::render('User/userslist',["users"=>$users]); // render inertia view location resources/js/pages
     }
 }
